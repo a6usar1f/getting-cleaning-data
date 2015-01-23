@@ -3,90 +3,50 @@
 All numeric features (variables) in time and frequency domains inside tidy_data.txt are average
 measurement values over each activity and each subject.
 
-## t = time domain
+### t = time domain
 
 tBodyAccMeanX        : Mean of body acceleration signals in X direction
-
 tBodyAccMeanY        : Mean of body acceleration signals in Y direction
-
 tBodyAccMeanZ        : Mean of body acceleration signals in Z direction
-
 tGravityAccMeanX     : Mean of gravity acceleration signals in X direction
-
 tGravityAccMeanY     : Mean of gravity acceleration signals in Y direction
-
 tGravityAccMeanZ     : Mean of gravity acceleration signals in Z direction
-
 tBodyAccJerkMeanX    : Mean of jerk signals of body acceleration in X direction
-
 tBodyAccJerkMeanY    : Mean of jerk signals of body acceleration in Y direction
-
 tBodyAccJerkMeanZ    : Mean of jerk signals of body acceleration in Z direction
-
 tBodyGyroMeanX       : Mean of body gyroscope signals in X direction
-
 tBodyGyroMeanY       : Mean of body gyroscope signals in Y direction
-
 tBodyGyroMeanZ       : Mean of body gyroscope signals in Z direction
-
 tBodyGyroJerkMeanX   : Mean of body gyroscope jerk signals in X direction
-
 tBodyGyroJerkMeanY   : Mean of body gyroscope jerk signals in Y direction
-
 tBodyGyroJerkMeanZ   : Mean of body gyroscope jerk signals in Z direction
-
 tBodyAccMagMean      : Mean of body acceleration magnitudes
-
 tGravityAccMagMean   : Mean of gravity acceleration magnitudes
-
 tBodyAccJerkMagMean  : Mean of jerk magnitudes of body acceleration
-
 tBodyGyroMagMean     : Mean of body gyroscope magnitudes
-
 tBodyGyroJerkMagMean : Mean of body gyroscope jerk magnitudes
-
 tBodyAccStdX         : Standard deviation of body acceleration signals in X direction
-
 tBodyAccStdY         : Standard deviation of body acceleration signals in Y direction
-
 tBodyAccStdZ         : Standard deviation of body acceleration signals in Z direction
-
 tGravityAccStdX      : Standard deviation of gravity acceleration signals in X direction
-
 tGravityAccStdY      : Standard deviation of gravity acceleration signals in Y direction
-
 tGravityAccStdZ      : Standard deviation of gravity acceleration signals in Z direction
-
 tBodyAccJerkStdX     : Standard deviation of jerk signals of body acceleration in X direction
-
 tBodyAccJerkStdY     : Standard deviation of jerk signals of body acceleration in Y direction
-
 tBodyAccJerkStdZ     : Standard deviation of jerk signals of body acceleration in Z direction
-
 tBodyGyroStdX        : Standard deviation of body gyroscope signals in X direction
-
 tBodyGyroStdY        : Standard deviation of body gyroscope signals in Y direction
-
 tBodyGyroStdZ        : Standard deviation of body gyroscope signals in Z direction
-
 tBodyGyroJerkStdX    : Standard deviation of body gyroscope jerk signals in X direction
-
 tBodyGyroJerkStdY    : Standard deviation of body gyroscope jerk signals in Y direction
-
 tBodyGyroJerkStdZ    : Standard deviation of body gyroscope jerk signals in Z direction
-
 tBodyAccMagStd       : Standard deviation of body acceleration magnitudes
-
 tGravityAccMagStd    : Standard deviation of gravity acceleration magnitudes
-
 tBodyAccJerkMagStd   : Standard deviation of jerk magnitudes of body acceleration
-
 tBodyGyroMagStd      : Standard deviation of body gyroscope magnitudes
-
 tBodyGyroJerkMagStd  : Standard deviation of body gyroscope jerk magnitudes
 
-
-## f = frequency domain
+### f = frequency domain
 
 fBodyAccMeanX        : Mean of body acceleration signals in X direction
 fBodyAccMeanY        : Mean of body acceleration signals in Y direction
