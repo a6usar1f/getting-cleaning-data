@@ -31,9 +31,9 @@ Lines 43 - 57: Changing the numeric values of column "Activity" into their respe
 
 Lines 60 - 61: Giving all columns with descriptive names that are read from the included file "features.txt".  
 
-Lines 64 - 85: Creating a new tidy dataset by
-    + making an ordered dataset from the extracted dataset,
-    + looping through each subject and each activity to compute average values for each column of measurements,
+Lines 64 - 85: Creating a new tidy dataset by  
+    + making an ordered dataset from the extracted dataset,  
+    + looping through each subject and each activity to compute average values for each column of measurements,  
     + accumulating all the average values into the tidy dataset along with their related subject and activity.  
 
 Lines 88 - 92 : Changing the column names which still including the parentheses symbols.  
