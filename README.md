@@ -38,4 +38,4 @@ Lines 64 - 85: Creating a new tidy dataset by
 
 Lines 88 - 92 : Changing the column names which still including the parentheses symbols.  
 
-Line 95: saving the tidy dataset into a file named "tidy_data.txt".  
+Line 95: Saving the tidy dataset into a file named "tidy_data.txt".  
