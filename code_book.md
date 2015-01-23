@@ -3,8 +3,8 @@
 All numeric features (variables) in time and frequency domains of tidy_data are average
 measurement values over each activity and each subject.
 
-t = time domain
-~~~~~~~~~~~~~~~
+## t = time domain
+
 tBodyAccMeanX        : Mean of body acceleration signals in X direction
 tBodyAccMeanY        : Mean of body acceleration signals in Y direction
 tBodyAccMeanZ        : Mean of body acceleration signals in Z direction
@@ -46,8 +46,8 @@ tBodyAccJerkMagStd   : Standard deviation of jerk magnitudes of body acceleratio
 tBodyGyroMagStd      : Standard deviation of body gyroscope magnitudes
 tBodyGyroJerkMagStd  : Standard deviation of body gyroscope jerk magnitudes
 
-f = frequency domain
-~~~~~~~~~~~~~~~~~~~~
+## f = frequency domain
+
 fBodyAccMeanX        : Mean of body acceleration signals in X direction
 fBodyAccMeanY        : Mean of body acceleration signals in Y direction
 fBodyAccMeanZ        : Mean of body acceleration signals in Z direction
@@ -90,4 +90,4 @@ fBodyGyroMagStd      : Standard deviation of body gyroscope magnitudes
 fBodyGyroJerkMagStd  : Standard deviation of body gyroscope jerk magnitudes
 
 Subject              : ID number of 30 subjects
-Activity             : LAYING, STANDING, SITTING, WALKING, WALKING_DOWNSTAIRS, WALKING_UPSTAIRS
+Activity             : LAYING, STANDING, SITTING, WALKING, WALKING\_DOWNSTAIRS, WALKING\_UPSTAIRS
