@@ -19,9 +19,23 @@ Lines 13 - 14: The step of uncompressing dataset file results in a new folder na
 
 Lines 17 - 20: Reading some data files (train measurements and its subjects and features) and combining them into a train dataset.  
 
-Lines 23 -26: Reading some more data files (test measurements and its subjects and features) and combining them into a test dataset.  
+Lines 23 - 26: Reading some more data files (test measurements and its subjects and features) and combining them into a test dataset.  
 
-Line 29: Combining all data into one data set.
+Line 29: Combining all data into one dataset.
 
-Lines 32 - 26: Searching for variable columns of the data set which compute the mean and standrad deviation of measurements. The indicator for this search is the phrases 'mean()' and 'std()' within some variable names in the original dataset.  
+Lines 32 - 36: Searching for variable columns of the data set which compute the mean and standrad deviation of measurements. The indicator for this search is the phrases 'mean()' and 'std()' within some variable names in the original dataset.  
 
+Lines 39 - 40: Based on the search result, a new dataset is extracted from the original dataset.  
+
+Lines 43 - 57: Changing the numeric values of column "Activity" into their respective declarative labels, such as  WALKING, WALKING\_UPSTAIRS, WALKING\_DOWNSTAIRS, etc.  
+
+Lines 60 - 61: Giving all columns with descriptive names that are read from the included file "features.txt".  
+
+Lines 64 - 85: Creating a new tidy dataset by
+    + making an ordered dataset from the extracted dataset,
+    + looping through each subject and each activity to compute average values for each column of measurements,
+    + accumulating all the average values into the tidy dataset along with their related subject and activity.  
+
+Lines 88 - 92 : Changing the column names which still including the parentheses symbols.  
+
+Line 95: saving the tidy dataset into a file named "tidy_data.txt".  
