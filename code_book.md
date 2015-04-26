@@ -91,3 +91,32 @@ fBodyGyroJerkMagStd  : Standard deviation of body gyroscope jerk magnitudes
 
 Subject              : ID number of 30 subjects  
 Activity             : LAYING, STANDING, SITTING, WALKING, WALKING\_DOWNSTAIRS, WALKING\_UPSTAIRS
+
+###  Transformations or work which were performed to clean up the data
+
+Step 1: Downloading the original compressed dataset of "Human Activity Recognition Using Smartphone Dataset" from its site and saving it in a local file named "dataset.zip". Afterward the file is uncompressed.  
+
+Step 2: The step of uncompressing dataset file results in a new folder named "UCI HAR Dataset" which hereafter becoming the working directory.  
+
+Step 3: Reading some data files (train measurements and its subjects and features) and combining them into a train dataset.  
+
+Step 4: Reading some more data files (test measurements and its subjects and features) and combining them into a test dataset.  
+
+Step 5: Combining all data into one dataset.
+
+Step 6: Searching for variable columns of the data set which compute the mean and standard deviation of measurements. The indicator for this search is the phrases 'mean()' and 'std()' within some variable names in the original dataset.  
+Step 7: Based on the search result, a new dataset is extracted from the original dataset.  
+
+Step 8: Changing the numeric values of column "Activity" into their respective declarative labels, such as  WALKING, WALKING\_UPSTAIRS, WALKING\_DOWNSTAIRS, etc.  
+
+Step 9: Giving all columns with descriptive names that are read from the included file "features.txt".  
+
+Step 10: Creating a new tidy dataset by  
+    + making an ordered dataset from the extracted dataset,  
+    + looping through each subject and each activity to compute average values for each column of measurements,  
+    + accumulating all the average values into the tidy dataset along with their related subject and activity.  
+
+Step 11: Changing the column names which still including the parentheses symbols.  
+
+Step 12: Saving the tidy dataset into a file named "tidy_data.txt".  
+
