@@ -1,7 +1,7 @@
 # run_analysis.R : A script to prepare a tidy dataset out of observation data
 #                  collected from smatrphone accelerometers and gyroscopes.
-#                  Course Project of Coursera "Getting and Cleaning Data"
-# Agus Arif, 20-01-2015
+#                  Course Project of Coursera "Getting and Cleaning Data".
+# Agus Arif, 26-04-2015
 
 run_analysis <- function() {
   ## Downloading the data file and unzipping it
