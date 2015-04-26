@@ -13,7 +13,7 @@ Below is the brief explanations of all lines in the script "run_analysis.R" that
 
 Lines 1 - 4: A comment to explain the aims of the script.  
 
-Lines 8 - 10: Downloading the original compressed dataset of "Human Activity Recognition Using Smartphone Dataset" from its site and saving it in a local file named "dataset.zip". Afterward the file is uncompreesed using the R function: unzip().  
+Lines 8 - 10: Downloading the original compressed dataset of "Human Activity Recognition Using Smartphone Dataset" from its site and saving it in a local file named "dataset.zip". Afterward the file is uncompressed using the R function: unzip().  
 
 Lines 13 - 14: The step of uncompressing dataset file results in a new folder named "UCI HAR Dataset" which hereafter becoming the working directory.  
 
@@ -23,7 +23,7 @@ Lines 23 - 26: Reading some more data files (test measurements and its subjects 
 
 Line 29: Combining all data into one dataset.
 
-Lines 32 - 36: Searching for variable columns of the data set which compute the mean and standrad deviation of measurements. The indicator for this search is the phrases 'mean()' and 'std()' within some variable names in the original dataset.  
+Lines 32 - 36: Searching for variable columns of the data set which compute the mean and standard deviation of measurements. The indicator for this search is the phrases 'mean()' and 'std()' within some variable names in the original dataset.  
 
 Lines 39 - 40: Based on the search result, a new dataset is extracted from the original dataset.  
 
